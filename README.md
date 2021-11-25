@@ -6,19 +6,22 @@
 6. 於上方項目後方說明。
 7. 因沒有APP上架經驗，所以僅能以google到的資訊做簡單說明：  
 android：  
-&emsp;準備：Google Console帳號、應用程式Icon(512x512)、主視覺圖(1024x500)、隱私權政策網站(非必要)、截圖兩張以上。  
+&emsp;準備：Google Console帳號、應用程式Icon(512x512)、主視覺圖(1024x500)、隱私權政策網站(非必要)、截圖兩  
+&emsp;&emsp;&emsp;&emsp;張以上。  
 &emsp;流程：一、創建key store並產生要上傳的.aab檔。  
 &emsp;&emsp;&emsp;&emsp;二、至google play console網站，點選建立應用程式並上傳icon、截圖等資料。  
 &emsp;&emsp;&emsp;&emsp;三、上傳.aab檔及選擇上架國家，最後發布即可。  
 &emsp;&emsp;&emsp;&emsp;四、google play審核約7天。  
 IOS：  
-&emsp;準備：登記Apple Developer帳號，打開react-native/ios資料夾內的.xcodeproj檔，設定Bundle Identifier、支援的硬體及icon。  
+&emsp;準備：登記Apple Developer帳號，打開react-native/ios資料夾內的.xcodeproj檔，設定Bundle Identifier、支援  
+&emsp;&emsp;&emsp;&emsp;的硬體及icon。  
 &emsp;流程：一、在KeyChain Access程式中，生成憑證檔。  
 &emsp;&emsp;&emsp;&emsp;二、至開發者後台中，選擇Certificates, Identifiers & Profiles，準備iOS Distribution Certificate。  
 &emsp;&emsp;&emsp;&emsp;三、在開發者後台建立APP ID，Bundle ID要跟Xcode專案一樣。  
 &emsp;&emsp;&emsp;&emsp;四、建立Profile並下載，並在在Xcode設定Signing。  
 &emsp;&emsp;&emsp;&emsp;五、至App Store Connect新增App，選擇平台、名稱、語言以及輸入Bundle ID。  
-&emsp;&emsp;&emsp;&emsp;六、回到Xcode，裝置部分選擇使用Build Any iOS Device (arm64)，點選「Product」->「Archive」打包。  
+&emsp;&emsp;&emsp;&emsp;六、回到Xcode，裝置部分選擇使用Build Any iOS Device (arm64)，點選「Product」->「Archive」打  
+&emsp;&emsp;&emsp;&emsp;包。  
 &emsp;&emsp;&emsp;&emsp;七、接著點選 Distribute App上傳App。  
 &emsp;&emsp;&emsp;&emsp;八、至App Store Tab填寫剩餘資料，並提交等待審查。  
 &emsp;&emsp;&emsp;&emsp;九、而ios App可利用TestFlight供人下載測試。  
