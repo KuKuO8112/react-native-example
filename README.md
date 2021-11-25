@@ -21,7 +21,7 @@ IOS：
 &emsp;&emsp;&emsp;&emsp;四、建立Profile並下載，並在在Xcode設定Signing。  
 &emsp;&emsp;&emsp;&emsp;五、至App Store Connect新增App，選擇平台、名稱、語言以及輸入Bundle ID。  
 &emsp;&emsp;&emsp;&emsp;六、回到Xcode，裝置部分選擇使用Build Any iOS Device (arm64)，點選「Product」->「Archive」打  
-&emsp;&emsp;&emsp;&emsp;包。  
+&emsp;&emsp;&emsp;&emsp;&emsp;包。  
 &emsp;&emsp;&emsp;&emsp;七、接著點選 Distribute App上傳App。  
 &emsp;&emsp;&emsp;&emsp;八、至App Store Tab填寫剩餘資料，並提交等待審查。  
 &emsp;&emsp;&emsp;&emsp;九、而ios App可利用TestFlight供人下載測試。  
